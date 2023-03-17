@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: cyan;
+	color: red;
+}
+
+#main-header {
+	background-color: wheat;
+	color: black;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-title {
+	margin: 0;
+}
+
+.main-nav {
+	margin: 0;
+}
+
+.main-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+}
+
+.main-nav li {
+	margin-right: 10px;
+}
+
+.main-nav li{
+	margin-right: 0;
+}
+
+.nav-link {
+	color: green;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.content {
+	padding: 20px;
+}
+
+#about-section {
+	background-color: pink;
+}
+
+#contact-section {
+	background-color: purple;
+}
+
+.section-title {
+	margin-top: 0;
+}
+
+.section-image {
+	display: block;
+	margin: 10px auto;
+	max-width: 100%;
+	height: auto;
+}
+
